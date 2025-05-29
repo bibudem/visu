@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Les bibliothèques de l'UdeM – Exemples de visualisations inspirantes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Une galerie d'exemples de visualisations de données, proposée par les bibliothèques de l’Université de Montréal." />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+</head>
+<body>
+  <a href="#results" class="skip-link">Aller au contenu principal</a>
+
+  <div id="wrapper">
+    <header>
+      <img src="logo-bib-udem.svg" alt="Logo des bibliothèques de l’Université de Montréal" class="logo" role="img">
+      <h1>Exemples de visualisations inspirantes</h1>
+      <div class="controls">
+        <label for="search" class="sr-only">Rechercher dans la galerie</label>
+        <input type="text" id="search" placeholder="Rechercher..." aria-label="Recherche par mot-clé">
+
+        <label for="filtre-theme" class="sr-only">Filtrer par thème</label>
+        <select id="filtre-theme" aria-label="Filtrer par thème">
+          <option value="">Tous les thèmes</option>
+        </select>
+
+        <label for="filtre-type" class="sr-only">Filtrer par type</label>
+        <select id="filtre-type" aria-label="Filtrer par type">
+          <option value="">Tous les types</option>
+        </select>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <div id="results" aria-live="polite">Chargement...</div>
+    </main>
+  </div>
+
+  <footer>
+    <p>Une initiative des <a href="https://bib.umontreal.ca">Bibliothèques de l’Université de Montréal</a>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
