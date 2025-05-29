@@ -1,19 +1,17 @@
-# Galerie de visualisations de données
+# Exemples de visualisations inspirantes
 
 Ce projet présente une sélection d'exemples concrets de visualisations de données, organisée sous forme de carte interactive et filtrable. Il a été conçu par les **bibliothèques de l’Université de Montréal** pour inspirer, explorer et analyser les manières de représenter visuellement les données.
 
-![Capture d'écran de la galerie](screenshot.png)
+## Fonctionnalités
 
-## ✨ Fonctionnalités
-
-- Affichage sous forme de cartes colorées
+- Affichage sous forme de cartes
 - Recherche par mots-clés
 - Filtres par **thème** et par **type**
-- Accessibilité améliorée (navigation clavier, texte alternatif, contraste)
+- Accessibilité améliorée (navigation clavier, contraste)
 - Interface responsive
 - Données chargées depuis un fichier `.csv`
 
-## 🗂 Structure du projet
+## Structure du projet
 
 ```
 /
@@ -25,23 +23,19 @@ Ce projet présente une sélection d'exemples concrets de visualisations de donn
 └── README.md           → Ce fichier
 ```
 
-## 🧪 Lancer localement
+## Lancer localement
 
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/galerie-dataviz.git
-   cd galerie-dataviz
+   git clone https://github.com/bibudem/visu.git
+   cd visu
    ```
 
 2. Ouvrez `index.html` dans un navigateur moderne.
 
-✅ Aucun serveur nécessaire.
+**Aucun serveur nécessaire.**
 
-## 🌐 Déploiement
-
-Ce projet peut être hébergé gratuitement via [GitHub Pages](https://pages.github.com/) ou sur n’importe quel hébergeur statique.
-
-## 📄 Format CSV attendu
+## Format CSV attendu
 
 Le fichier `galerie_dataviz.csv` doit contenir les colonnes suivantes :
 
@@ -55,12 +49,11 @@ Titre,Lien,Auteur(s),Type,Thème,Description
 Une année de pluie,https://dataviz.example.com/journal-pluie,Jean Dupont,Carte interactive,Météo,Visualisation des précipitations journalières.
 ```
 
-## 🤝 Contribuer
+## Contribuer
 
 Toute suggestion d’ajout de visualisation, de correction ou d’amélioration est la bienvenue.  
 Vous pouvez proposer une modification via une _pull request_ ou ouvrir une _issue_.
 
 ---
 
-© 2025 — Bibliothèques de l’Université de Montréal  
-Licence [MIT](LICENSE)
+Les Bibliothèques de l’Université de Montréal
